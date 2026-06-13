@@ -1,0 +1,33 @@
+{
+  "dailyDeals": [
+    {"type":"Common","count":3,"goldCost":10},
+    {"type":"Rare","count":1,"goldCost":100},
+    {"type":"Epic","count":1,"goldCost":1000},
+    {"type":"Legendary","count":1,"goldCost":40000}
+  ],
+  "cycle": [
+    {"day":1,"slots":[{"type":"Common","cardId":26000000,"count":10,"gold":100},{"type":"Rare","cardId":26000007,"count":1,"gold":100}]},
+    {"day":2,"slots":[{"type":"Common","cardId":26000001,"count":10,"gold":100},{"type":"Rare","cardId":26000008,"count":1,"gold":100}]},
+    {"day":3,"slots":[{"type":"Common","cardId":26000002,"count":10,"gold":100},{"type":"Epic","cardId":26000025,"count":1,"gold":1000}]},
+    {"day":4,"slots":[{"type":"Common","cardId":26000003,"count":10,"gold":100},{"type":"Rare","cardId":26000009,"count":1,"gold":100}]},
+    {"day":5,"slots":[{"type":"Common","cardId":26000004,"count":10,"gold":100},{"type":"Rare","cardId":26000010,"count":1,"gold":100}]},
+    {"day":6,"slots":[{"type":"Common","cardId":26000005,"count":10,"gold":100},{"type":"Epic","cardId":26000026,"count":1,"gold":1000}]},
+    {"day":7,"slots":[{"type":"Common","cardId":26000006,"count":10,"gold":100},{"type":"Legendary","cardId":26000031,"count":1,"gold":40000}]}
+  ],
+  "specialOffers": [
+    {"name":"ArenaValuePack","gems":500,"gold":10000,"cards":[],"arena":5},
+    {"name":"LegendaryKingsChest","gems":2500,"gold":0,"cards":[],"arena":8},
+    {"name":"ShopChestSilver","gems":60,"gold":0,"cards":[],"arena":1},
+    {"name":"ShopChestGold","gems":120,"gold":0,"cards":[],"arena":1},
+    {"name":"ShopChestMagical","gems":600,"gold":0,"cards":[],"arena":1},
+    {"name":"ShopChestGiant","gems":780,"gold":0,"cards":[],"arena":5}
+  ],
+  "gemsForGold": [
+    {"gems":20,"gold":1000},
+    {"gems":100,"gold":6000},
+    {"gems":500,"gold":35000},
+    {"gems":1000,"gold":80000},
+    {"gems":2000,"gold":180000},
+    {"gems":5000,"gold":500000}
+  ]
+}
