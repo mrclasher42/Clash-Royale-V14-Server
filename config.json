@@ -1,0 +1,24 @@
+{
+  "port": 9330,
+  "patchUrl": "http://your-ip:9331",
+  "discord": {
+    "enabled": false,
+    "channelId": "000000000",
+    "tokenEnv": "your-bot-token"
+  },
+  "antiDdos": {
+    "maxConnectionsPerIp": 3,
+    "maxPacketsPerSecond": 30,
+    "maxPacketSizeBytes": 10240,
+    "loginTimeoutMs": 15000,
+    "banTimeMs": 1800000
+  },
+  "protocol": {
+    "loginPacketId": 10101,
+    "preAuthAllowedPacketIds": [10101, 10100, 11111, 14173, 10108]
+  },
+  "persistence": {
+    "databaseFile": "database.json",
+    "newUserIdFile": "newUserId.txt"
+  }
+}
