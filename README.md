@@ -1,4 +1,3 @@
-```bash
 # Clash V14 Server
 
 ### Clash Royale Private Server v14.593.1
@@ -22,16 +21,43 @@ A private server implementation for Clash Royale version 14.593.1.
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/mrclasher42/Clash-Royale-V14-Server.git
-cd Clash-Royale-V14-Server
-```
+1. Clone the repository:  
+`git clone https://github.com/mrclasher42/Clash-Royale-V14-Server.git`  
+`cd Clash-Royale-V14-Server`
 
-2. Install dependencies:
+2. Install dependencies:  
+`npm install`
 
-```
-npm install
+3. Start the server:  
+`npm start`
+
+The server will run on port 9330 by default.
+
+## Client Configuration
+
+To connect your client to this server:
+
+1. Open `libscript.so` in a hex editor
+2. Search for `13.50.242.135`
+3. Replace it with your server IP address
+4. Save the file and install the APK
+
+## What Works
+
+- Login & Authentication
+- Training Battles
+- Card Collection
+- Deck Building
+- Player Stats (Trophies, Level, XP)
+- Database Persistence
+- Partial Clan System
+
+## What Doesn't Work
+
+- Multiplayer Battles (1v1 vs real players)
+- Shop & Purchases
+- Full Clan System
+- Evolutions & Heroes
 ````
 
 3. Start the server:
