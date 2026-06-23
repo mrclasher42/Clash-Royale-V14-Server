@@ -3,7 +3,6 @@ import path from "path";
 import fs from "fs";
 import express from "express";
 import morgan from "morgan";
-import figlet from "figlet";
 import { Packetizer } from "../protocol/packetizer/Packetizer";
 import type { AppConfig } from "../config/loadConfig";
 import type { Database } from "../db/Database";
@@ -172,17 +171,14 @@ export class TcpGameServer {
   async start(): Promise<void> {
     this.server.once("listening", () => {
       try {
-        // figlet exposes both promise + sync APIs depending on version.
-        console.log(figlet.textSync("Eriks Royale v14"));
       } catch {
-        console.log("Eriks Royale v14");
+        console.log("Clash V14 Royale v14");
       }
       console.log(`[SERVER] >> Server started on ${this.ctx.config.port} port!`);
     });
 
     this.contentPatchServer.listen(9331, () => {
       console.log(
-        "content patch server started at port " + 9331,
       );
     });
 

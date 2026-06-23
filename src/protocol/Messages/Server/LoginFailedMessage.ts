@@ -22,7 +22,7 @@ class LoginFailedMessage extends PiranhaMessage {
     let cfg = loadConfig();
 
     //https://link-target.net/927764/POMeEPEp8tYD
-    let updateURL = "https://eriksroyale.netlify.app";
+    let updateURL = "https://Clashsroyale.netlify.app";
     if (this.jsonParams?.reason === "update") {
       this.writeHex("08");
       this.writeString("{}");

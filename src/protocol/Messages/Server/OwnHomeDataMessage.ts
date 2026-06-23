@@ -3562,7 +3562,7 @@ this.writeStringReference("");
 this.writeInt(99000000);
 this.writeStringReference("");
 this.writeVInt(0);
-this.writeStringReference("dsc.gg/erikclash");
+this.writeStringReference("dsc.gg/Clashclash");
 this.writeVInt(1774998924);
 this.writeVInt(0);
 this.writeVInt(0);

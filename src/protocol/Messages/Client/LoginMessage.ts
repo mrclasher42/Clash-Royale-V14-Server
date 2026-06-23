@@ -44,7 +44,7 @@ class LoginMessage extends PiranhaMessage {
       ) {
         setTimeout(() => {
           new LoginFailedMessage(this.client, {
-            //reason: "New update avaliable, update at: dsc.gg/erikclash",
+            //reason: "New update avaliable, update at: dsc.gg/Clashclash",
             reason: "patch",
           }).send();
         }, 2000);
@@ -82,7 +82,7 @@ class LoginMessage extends PiranhaMessage {
       if (!databaseuser) {
         setTimeout(() => {
           new LoginFailedMessage(this.client, {
-            //reason: "New update avaliable, update at: dsc.gg/erikclash",
+            //reason: "New update avaliable, update at: dsc.gg/Clashclash",
             reason: "Invalid credentials, please clear app data",
           }).send();
         }, 2000);

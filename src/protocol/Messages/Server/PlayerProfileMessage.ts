@@ -190,7 +190,7 @@ this.writeVInt(0);
 this.writeVInt(70424893);
 this.writeVInt(0);
 this.writeVInt(70424893);
-this.writeStringReference("erik");
+this.writeStringReference("Clash");
 this.writeVInt(2);
 this.writeVInt(0);
 this.writeVInt(0);

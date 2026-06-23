@@ -44,7 +44,7 @@ class AllianceStreamEntryMessage extends PiranhaMessage {
     for (let i = 0; i < 10; i++) {
       this.writeInt(0);
       this.writeInt(70424893 + i);
-      this.writeString("erik");
+      this.writeString("Clash");
       this.writeInt(54000001);
       this.writeVInt(2);
       this.writeVInt(90);

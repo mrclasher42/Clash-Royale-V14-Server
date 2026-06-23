@@ -1,6 +1,6 @@
 # v14.593.1-ERIK
 ### old source. not ready for production (typescript btw)
-An archive of Erik Royale for Clash Royale v14.593.1
+An archive of Clash Royale for Clash Royale v14.593.1
 
 ![funneh](img/funneh.gif)
 ## YOU MUST HAVE A BRAIN TO USE THIS
@@ -22,7 +22,7 @@ An archive of Erik Royale for Clash Royale v14.593.1
  * (possibly) Gemini
 
 ## Who Made the prompts?:
-* Erik Reis
+* Clash Reis
 
 ## Who Leaked it?:
  * Credits to segcent

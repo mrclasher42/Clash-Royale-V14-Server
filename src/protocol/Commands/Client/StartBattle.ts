@@ -41,7 +41,7 @@ class StartBattle {
     if (ctx.userInBattleSearch.get(this.gameMode) === null) {
       ctx.userInBattleSearch.set(this.gameMode, this.client);
       ctx.sendDiscordMessage(
-        `${this.client.user.username || "someone"} Is Searching for battle on Eriks Royale`,
+        `${this.client.user.username || "someone"} Is Searching for battle on Clash V14 Royale`,
       );
     } else if ([undefined, this.client].includes(ctx.userInBattleSearch.get(this.gameMode))) {
       //await new TrainSectorStateMessage(this.client).send();
