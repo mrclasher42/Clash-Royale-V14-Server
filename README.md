@@ -53,8 +53,8 @@ To connect your client to this server:
 
 ## What Doesn't Work
 
-- Multiplayer Battles (1v1 vs real players)
+- Multiplayer Battles
 - Shop & Purchases
 - Full Clan System
 - Evolutions & Heroes
-````
+- Chests
