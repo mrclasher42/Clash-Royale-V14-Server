@@ -2,7 +2,7 @@
 
 ### Clash Royale Private Server v14.593.1
 
-A private server implementation for Clash Royale version 14.593.1
+A private server implementation for Clash Royale version 14.593.1 (Not ready for prodection)
 
 ## Requirements
 
